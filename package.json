@@ -1,0 +1,19 @@
+{
+  "name": "dijkie-palindrome",
+  "version": "0.1.0",
+  "description": "Palindrome checker",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "palindrome",
+    "javascript",
+    "tutorial"
+  ],
+  "author": "David Mielnik",
+  "license": "ISC"
+}
