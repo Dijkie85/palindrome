@@ -18,6 +18,10 @@ function Phrase(content) {
   };
   
   this.isPalindrome = function() {
-    return (this.processedContent() === this.processedContent().reverse());
+    if (this.processedContent()) {
+      return (this.processedContent() === this.processedContent().reverse());
+    } else {
+      return false;
+    }
   };
 }

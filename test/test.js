@@ -9,6 +9,11 @@ describe("Phrase", () => {
       let nonPalindrome = new Phrase("nosoypalindromo");
       assert(!nonPalindrome.isPalindrome());
     });
+
+    it("returns false for empty string", () => {
+      let emptyString = new Phrase(" ");
+      assert(!emptyString.isPalindrome());
+    });
     
     it("returns true for simple palindrome", () => {
       let palindrome = new Phrase("reconocer");
